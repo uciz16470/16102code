@@ -3,7 +3,7 @@
 
  NO.1 找零錢
 ```c
-int a,b,c,d;
+	int a,b,c,d;
 	scanf("%d",&a);
 	printf("%d=",a);
 	
@@ -26,12 +26,36 @@ int a,ans=0;
 	printf("%d\n",ans);
 ```
 
- NO.3
+ NO.3 找倍數
 ```c
+	int a,ans=0;
+	for(int i =0; i < 10; i++){
+		scanf("%d",&a);
+		if(a % 3 == 0) ans+=1;
+	}
+	printf("%d\n",ans);
 
 ```
 
- NO.4
+ NO.4 成績等級
 ```c
+	int a,ans=0;
+	for(int i =0; i < 10; i++){
+		scanf("%d",&a);
+		if(a % 3 == 0) ans+=1;
+	}
+	printf("%d\n",ans);
+```
 
+ NO.5 分式化簡
+```c
+	int m,s,q=1;
+	scanf("%d%d",&s,&m);
+	
+	for(int i=1; i<=s; i++){
+		if(s % i == 0){
+			if(m % i == 0) q=i;
+		}
+	}
+	printf("%d %d\n",s/q,m/q);
 ```
