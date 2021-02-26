@@ -16,7 +16,7 @@ int a,ans=0;
 	scanf("%d",&a);
 ```
 
- NO.2
+ NO.2 找因數
 ```c
 	for(int i=1; i<=a; i++){
 		int b=1;
