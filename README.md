@@ -47,7 +47,7 @@ int a,ans=0;
 	printf("%d\n",ans);
 ```
 
- NO.5 分式化簡 ()
+ NO.5 分式化簡 (考試)
 ```c
 	int m,s,q=1;
 	scanf("%d%d",&s,&m);
