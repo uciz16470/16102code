@@ -56,3 +56,5 @@ for(int i=1; i<=s; i++){
 
 printf("%d %d\n",s/q,m/q);
 ```
+
+##2021/3/5
