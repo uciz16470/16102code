@@ -65,7 +65,7 @@ NO.1
 ## 2021/3/12
 
 ### 上課
-1
+1 
 ```c
 int a[5] = {0, 10, 20, 30 ,40};
     int *p = &a[2];
@@ -76,6 +76,7 @@ int a[5] = {0, 10, 20, 30 ,40};
 ```
 
 2
+列印 
 ```c
 void printAll(){
     for(int i=0; i<5; i++){
@@ -84,9 +85,8 @@ void printAll(){
     printf("\n");
 }
 ```
+主程式
 ```c
-int main()
-{
         printAll();
     int *p = &a[2];
     *p = 222;
@@ -99,5 +99,4 @@ int main()
     p--;
     *p = 555;
         printAll();
-}
 ```
