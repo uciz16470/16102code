@@ -9,3 +9,4 @@ int main()
   printf("%f %f", a.x, a.y)
 }
 ```
+![N1]()
