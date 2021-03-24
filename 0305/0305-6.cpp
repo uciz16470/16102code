@@ -11,7 +11,7 @@ int main()
 		sum+=a[i];
 	}
 	avg=sum/n;
-	printf("§¡¼Ğ:%0.1f\n",sum/n);
+	printf("Â§Â¡Â¼Ã:%0.1f\n",sum/n);
 
 	int x=0;
 	for(int i=0; i<n; i++){
@@ -22,5 +22,5 @@ int main()
 	}
 		AVG=SUM/x;
 
-	printf("«e¼Ğ:%0.1f\n",AVG);
+	printf("Â«eÂ¼Ã:%0.1f\n",AVG);
 }
