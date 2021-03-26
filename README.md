@@ -62,6 +62,28 @@ printf("%d %d\n",s/q,m/q);
 NO.1
 
 
-## 2021/3/12
+## TEXT
+
+```c
+#include <stdio.h>
+int main()
+{
+    int N,M,D,q;
+    scanf("%d",&N);
+    
+    for(int i=0; i<N; i++){
+        scanf("%d",&M);
+        if(M == 2 ){
+            scanf("%d",&D);
+            if(D)
+        }else if(M%2 == 0){
+        
+        }else{
+        
+        }
+        
+    }
+}
+```
 
 
