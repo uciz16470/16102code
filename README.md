@@ -63,27 +63,50 @@ NO.1
 
 
 ## TEXT
+大小月不分QQ
 
 ```c
 #include <stdio.h>
+int s[366];
 int main()
 {
     int N,M,D,q;
     scanf("%d",&N);
-    
+    //1.6 2.7 3.1 4.2 5.3 6.4 7.5
     for(int i=0; i<N; i++){
         scanf("%d",&M);
         if(M == 2 ){
             scanf("%d",&D);
-            if(D)
+            q=31+D;
+            s[i]=q%7;
+
         }else if(M%2 == 0){
-        
+            scanf("%d",&D);
+            q=59+D+((M-3)*30)+(M/2-1);
+            s[i]=q%7;
+
+        }else if(M == 1){
+            scanf("%d",&D);
+            s[i]=D%7;
+
         }else{
-        
+            scanf("%d",&D);
+            q=59+D+((M-3)*30)+(M/2-1);
+            s[i]=q%7;
         }
-        
+    }
+
+    for(int i=0; i<N;i++){
+        if(s[i]==1) printf("Saturday6\n");
+        else if(s[i]==2) printf("Sunday7\n");
+        else if(s[i]==3) printf("Monday1\n");
+        else if(s[i]==4) printf("Tuesday2\n");
+        else if(s[i]==5) printf("Wednesday3\n");
+        else if(s[i]==6) printf("Thursday4\n");
+        else printf("Friday5\n");
     }
 }
+
 ```
 
 
