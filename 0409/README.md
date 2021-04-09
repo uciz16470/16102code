@@ -7,7 +7,7 @@ include <stdlib.h>
 ```
 ### string.h
 ```c
-if(strcmp(li[1],li[2]) > 0) \\li[1] > li[2]
-if(strcmp(li[1],li[2]) = 0) \\一樣
-if(strcmp(li[1],li[2]) < 0) \\li[1] < li[2]
+if(strcmp(li[1],li[2]) > 0) //li[1] > li[2]
+if(strcmp(li[1],li[2]) = 0) //一樣
+if(strcmp(li[1],li[2]) < 0) //li[1] < li[2]
 ```
