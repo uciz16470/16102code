@@ -12,3 +12,6 @@ if(strcmp(li[1],li[2]) = 0) //一樣
 if(strcmp(li[1],li[2]) < 0) //li[1] < li[2]
 ```
 ### 字串複製
+```c
+strcpy(li[1],li[2]); //li[1] = li[2]
+```
