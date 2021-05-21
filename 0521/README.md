@@ -27,7 +27,7 @@ void mousePressed(){
 
 ```c
 void setup(){
-  size(1024, 400);          //程式大小
+  size(1024, 400);          //程式視窗大小
 }
 void draw(){
    background(240,230,140); //背景顏色
