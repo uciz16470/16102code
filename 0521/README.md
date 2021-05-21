@@ -1,7 +1,7 @@
 # 倒數計時
 #### 時鐘
 
-![時鐘]()
+![時鐘](https://github.com/uciz16470/2020cce/blob/gh-pages/0521/07460303w13-4.PNG)
 
 ```c
 void setup(){
