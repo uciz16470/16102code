@@ -43,5 +43,19 @@ void draw(){
 #### 倒數
 
 ```c
-
+void draw(){
+   background(240,230,140);
+   textSize(50);
+   int h=hour();
+   int m=minute();
+   int s=second();
+   fill(77,57,0);
+   text( "Now:" + h + ":" + m + ":" + s, 100, 100);
+   int total = h*60*60 + m*60 + s;
+   int endtime = 12*60*60 + 0*60 + 0;
+   int en = endtime - total;
+   int nh = en / 3600, nm = en / 60 % 60, ns = en % 60;
+   text( "剩下:" + nh + ":" + nm + ":" + ns, 100, 300);
+   text("總秒數" + total, 100, 200);
+}
 ```
