@@ -5,12 +5,12 @@
 
 ```c
 void setup(){
-  size(1024, 400);
+  size(1024, 400);          //程式大小
 }
 void draw(){
-   background(240,230,140);
-   fill(77,57,0);
-   textSize(50);
+   background(240,230,140); //背景顏色
+   fill(77,57,0);           //文字顏色
+   textSize(50);            //字體大小
    int h=hour();
    int m=minute();
    int s=second();
