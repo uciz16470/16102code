@@ -55,3 +55,23 @@ void draw(){
   shift +=1;
 }
 ```
+### 慢慢停下來
+```java
+float shift=0,v=0;
+void mousePressed(){
+  v += random(10) + 5;
+}
+void draw(){
+  background(57,50,50);
+  float start=radians(90+shift);
+  float stop=radians(180+shift);
+  fill(255);
+  arc(100,100,180,180,start,stop);
+  if(v>0.0001){
+    shift+=v;
+    v = v*0.98;
+  }
+  text(shift,200,100);
+  text(v, 200,150);
+}
+```
