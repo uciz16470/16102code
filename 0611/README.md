@@ -32,3 +32,10 @@ void draw(){
 }
 ```
 
+```java
+void draw(){
+  background(57,50,50);
+  arc(100,100,180,180,radians(90),radians(180));
+}
+```
+(圓心位置,圓心位置,長,寬,開始角度,結束角度)
