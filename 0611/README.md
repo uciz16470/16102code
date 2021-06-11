@@ -39,3 +39,19 @@ void draw(){
 }
 ```
 (圓心位置,圓心位置,長,寬,開始角度,結束角度)
+
+### 自轉扇形
+```java
+void setup(){
+  size(400,200);
+  textSize(40);
+}
+float shift=0;
+void draw(){
+  background(57,50,50);
+  float start=radians(90+shift);
+  float stop=radians(180+shift);
+  arc(100,100,180,180,start,stop);
+  shift +=1;
+}
+```
